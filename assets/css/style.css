@@ -1,0 +1,80 @@
+/* * {
+  outline:1px dotted black;
+} */
+
+body {
+  background-image: url('../images/wood-1963988__340.png');
+  font-family: Georgia, Times, "Times New Roman", serif;
+  margin: 10px;
+}
+
+html {
+  /* positioning */
+  position: relative;
+
+  /* box-model */
+  min-height: 100%;
+}
+
+/* Game Name */
+header {
+  background-color: #cc6600;
+  color: white;
+  font-size: 2rem;
+  margin-left: -15px;
+  padding: 15px 3px;
+  width: max-content;
+  margin-bottom: 10px;
+}
+
+p {
+  padding-top: 10px;
+  margin: 0px;
+}
+
+img {
+  margin: 10px 5px 3px 0px;
+}
+
+/* Game Instructions */
+.instructions {
+  background-color: #fff3e6;
+  color: #77b300;
+  font-size: .85rem;
+  padding-top: 5px;
+  padding-bottom: 10%;
+  margin-bottom: 5px;
+}
+
+.gameScores {
+  color: white;
+}
+
+#gameTarget {
+  background-color: #53c687;
+  color: #660099;
+  font-size: 2rem;
+  padding: 0px 0px 40px 2px;
+  margin-right: 5px;
+}
+
+#totalScore {
+  background-color: #80ffff;
+  color: #77b300;
+  font-size: .85rem;
+  padding: 3px;
+  width: auto;
+}
+
+#gameScoreText {
+  background-color: #008080;
+  margin-top: 3px;
+  padding: 0px 0px 0px 2px;
+}
+
+#gameScore {
+  background-color: #008080;
+  margin-top: 5px;
+  font-size: 2rem;
+  padding: 1px 1px 40px 2px;
+}

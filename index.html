@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CrystalsCollector!</title>
+  <!-- Bootstap Stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css ">
+
+  <!-- My Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css ">
+</head>
+
+<body>
+  <!-- Overall Container -->
+  <div class="container no-gutters">
+    <!-- Row contains title row -->
+    <div class="row">
+      <!-- column for header -->
+      <div class="col-3">
+        <header>CrystalsCollector!</header>
+      </div>
+    </div> <!-- end title row -->
+    <!-- Row contains multiple paragraphs with instructions -->
+    <div class="row">
+      <div class="col-4 instructions ">
+        <p>You will be given a random number at the start of the game.</p>
+        <p>
+          There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total
+          score.
+        </p>
+        <p>
+          You win the game by matching your total score to random number, you lose the game if your total score goes above
+          the random number.
+        </p>
+        <p>
+          The value of each crystal is hidden from you until you click on it.
+        </p>
+        <p>
+          Each time when the game starts, the game will change the values of each crystal.
+        </p>
+      </div>
+    </div> <!-- end instruction row -->
+    <!-- Row contains random number, and overall score -->
+    <div class="row">
+      <!-- stores random number -->
+      <div class="col-2" id="gameTarget">0</div>
+      <!-- stores win/loss results -->
+      <div class="col-1" id="totalScore">
+        <p>Wins 0</p>
+        <p>Losses 0</p>
+      </div>
+    </div> <!-- end scores row -->
+    <!-- Row contains crystal images -->
+    <div class="row ">
+      <img src="assets/images/blue-glass-sphere-1194419.jpg" height="100px" width="100px" alt="first crystal">
+      <img src="assets/images/crystal-ball-3-1545513.jpg" height="100px" width="100px" alt="second crystal">
+      <img src="assets/images/green-glass-sphere-1196476.jpg" height="100px" width="100px" alt="third crystal">
+      <img src="assets/images/keep-em-flowin-1568309.jpg" height="100px" width="100px" alt="fourth crystal">
+    </div> <!-- end images row -->
+    <!-- Row contains game score score -->
+    <!-- Need two rows full width of column -->
+    <div class="row">
+      <div class="col-3 gameScores">
+        <div class="row">
+          <div class="col-12" id='gameScoreText'>Your total score is:</div>
+        </div>
+        <div class="row">
+          <div class="col-12" id='gameScore'>0</div>
+        </div>
+      </div>
+    </div> <!-- end game score row -->
+  </div> <!-- end container-->
+</body>
+
+</html>
